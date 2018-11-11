@@ -1,0 +1,82 @@
+body {
+    background-color: gray;
+}
+
+p {
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+}
+
+.gameBtn {
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    margin: 5px;
+    border-radius: 8px;
+    color: black;
+    background-color: whitesmoke;
+    box-shadow: 0 2px maroon;
+    border: 1px solid black;
+}
+
+.categorybtn {
+    color: black;
+    background-color: whitesmoke;
+    box-shadow: 0 2px maroon;
+    border-color: black;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.categorybtn:hover {
+    background-color: black;
+    color: maroon;
+    box-shadow: 0 2px black;
+    border-color: whitesmoke;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#headGif {
+    font-family: 'Cinzel', serif;
+    color: black;
+    clear: both;
+    text-align: left;
+}
+
+.categorybtn:active {
+    background-color: whitesmoke;
+    color: black;
+    border-color: maroon;
+    box-shadow: 0 2px black;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.categorybtn:after {
+    background-color: whitesmoke;
+    color: black;
+    border-color: maroon;
+    box-shadow: 0 2px black;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.searchDiv {
+    background-color: gray;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 15px;
+}
+
+#gameSearch {
+    margin: 10px 0px;
+}
+
+.row {
+    display: flex;
+}
+
+.gameGifs {
+    flex: 30%;   
+}
